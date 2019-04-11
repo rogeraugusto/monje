@@ -1,0 +1,72 @@
+/*Don't copy this part*/
+body{
+    margin-top: 50px;
+}
+
+/*Business Card Css */
+.panel-card {
+  border: 1px solid #cccccc;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.profile-img {
+  height: 120px;
+  background: white;
+}
+.name {
+  color: #666666;
+  font-size: 20px;
+}
+.panel-title {
+  font-size: 20px;
+}
+.panel-title.ln{
+  text-align: center;
+}
+.modal-body p {
+  font-size: 20px;
+}
+.btnLogout, .btnAddDevice {
+  float: right;
+  margin-top: 4px;
+}
+.list-unstyled.multilevels ul {
+    padding-left:1.4rem;
+    list-style:none;
+}
+.list-unstyled.multilevels li {
+    font-weight:bold;
+}
+.list-unstyled.multilevels ul li {
+    font-weight:normal;
+}
+
+#connected {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  color: #666666;
+}
+
+#connected h1 {
+  font-size: 40px;
+  padding: 30px 10px 0 10px;
+  font-family: 'Oswald', sans-serif;
+}
+#connected p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  line-height: 1.4;
+}
+   
+#connected svg {
+  animation: wifi 3s infinite;
+}
+    
+@keyframes wifi {
+  0% { opacity: 0.1; }
+  50% { opacity: 1; }
+  100% { opacity: 0.1; }
+}
