@@ -1,0 +1,17 @@
+
+.idea/
+.vscode/
+.env
+node_modules/
+build/
+temp/
+dist/
+coverage/
+ormconfig.json
+
+tmp/uploads/*
+!tmp/uploads/.gitkeep
+
+npm-debug.log
+yarn-error.log
+yarn.lock
